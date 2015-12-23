@@ -32,7 +32,7 @@
 		</dict>
 	</dict>
 	<key>Description</key>
-	<string>Automaticly remove all known Cookiebars, introduced by the dutch goverment.</string>
+	<string>Automatically remove all known Cookiebars, introduced by the dutch goverment.</string>
 	<key>DeveloperIdentifier</key>
 	<string>3K955RGPBX</string>
 	<key>ExtensionInfoDictionaryVersion</key>
@@ -47,7 +47,9 @@
 			<string>All</string>
 		</dict>
 	</dict>
+	<key>Update Manifest URL</key>
+	<string>https://smartersoft.github.io/CookiebarGone/CookiebarGone-updates.plist</string>
 	<key>Website</key>
-	<string>https://smartersoft.nl/CookiebarGone</string>
+	<string>https://smartersoft.github.io/CookiebarGone/</string>
 </dict>
 </plist>

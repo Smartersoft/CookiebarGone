@@ -3,6 +3,8 @@ The Dutch government created a law that tells every website to ask for permissio
 
 We need a plugin for this because everyone accepts all those cookies anyway. And we cannot choose to not accept the cookies and still see the website. A good solution is to clear your cookies on a regular basis.
 
+[Install the Safari plugin](https://smartersoft.github.io/CookiebarGone/CookiebarGone.safariextz)
+
 ## Found a site we don't support?
 Please create an [issue](issues/new) with the url. And if it you know how to find the ```id/class/query```, please add those as well.
 
@@ -36,6 +38,7 @@ grunt build
 ```
 
 We cannot create the actual SafariExtension from console. So at this moment you:
+
 1. Open Safari
 2. Developer (menu)
 3. Show Extension builder

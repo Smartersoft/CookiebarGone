@@ -28,15 +28,21 @@ module.exports = function(grunt) {
   		},
 		},
 
+		'gh-pages': {
+			options: {
+				base: 'dist'
+			},
+			src: '**/*'
+		},
+
 	});
 
   grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-file-exists');
+	grunt.loadNpmTasks('grunt-gh-pages');
 
 	grunt.registerTask('build',['uglify']);
-  grunt.registerTask('deploy', ['copy','fileExists']);
-
-
+  grunt.registerTask('deploy', ['copy','fileExists','gh-pages']);
 
 };
