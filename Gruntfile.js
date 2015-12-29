@@ -35,12 +35,28 @@ module.exports = function(grunt) {
 			src: '**/*'
 		},
 
+		multiresize: {
+			target: {
+      	src: 'src/misc/logo-cookie.png',
+      	dest:[
+					'src/CookiebarGone.safariextension/Icon-32.png',
+					'src/CookiebarGone.safariextension/Icon-48.png',
+					'src/CookiebarGone.safariextension/Icon-64.png',
+					'src/CookiebarGone.safariextension/Icon-96.png',
+					'src/CookiebarGone.safariextension/Icon-128.png',
+
+				],
+	      destSizes: ['32x32','48x48','64x64','96x96','128x128']
+    	}
+  	},
+
 	});
 
   grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-file-exists');
 	grunt.loadNpmTasks('grunt-gh-pages');
+	grunt.loadNpmTasks('grunt-multiresize');
 
 	grunt.registerTask('build',['uglify']);
   grunt.registerTask('deploy', ['copy','fileExists','gh-pages']);

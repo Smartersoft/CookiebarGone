@@ -13,9 +13,9 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.0.1</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>2</string>
 	<key>Chrome</key>
 	<dict>
 		<key>Global Page</key>
@@ -32,7 +32,7 @@
 		</dict>
 	</dict>
 	<key>Description</key>
-	<string>Automatically remove all known Cookiebars, introduced by the dutch goverment.</string>
+	<string>Automatically accepts all known Cookiebars, introduced by the dutch government.</string>
 	<key>DeveloperIdentifier</key>
 	<string>3K955RGPBX</string>
 	<key>ExtensionInfoDictionaryVersion</key>
